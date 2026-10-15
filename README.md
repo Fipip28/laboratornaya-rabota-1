@@ -87,13 +87,13 @@
 >
 >После ввода значения сохраняются в соответствующие переменные:
 >
->double n = in.nextInt();
+>int n = in.nextInt();
 >
->double i = in.nextInt();
+>int i = in.nextInt();
 >
->double p = in.nextInt();
+>int p = in.nextInt();
 >
->double l = in.nextInt();
+>int l = in.nextInt();
 >
 >Дополнительную переменную для хранения результата создавать не требуется.
 >После определения второго по величине числа программа сразу выводит соответствующую переменную с помощью println().
@@ -132,10 +132,10 @@ graph TD
             public static PrintStream out = System.out;
             public static void main(String[] args) {
                 // Вводим 4 числа
-                double n = in.nextInt();
-                double i = in.nextInt();
-                double p = in.nextInt();
-                double l = in.nextInt();
+                int n = in.nextInt();
+                int i = in.nextInt();
+                int p = in.nextInt();
+                int l = in.nextInt();
                 // Ищем 2 по величине число
                 if ((n > i && n < p && n < l)||
                     (n > p && n < i && n < l)||
