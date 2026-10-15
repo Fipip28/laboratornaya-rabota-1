@@ -153,11 +153,7 @@ graph TD
                          (p > l && p < n && p < i)) {
                     out.println(p);
                 }
-                else if ((l > n && l < i && l < p)||
-                         (l > i && l < n && l < p)||
-                         (l > p && l < n && l < i)) {
-                    out.println(l);
-                }
+                else out.println(l);
             }
         }
     ``` 
